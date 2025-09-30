@@ -8,11 +8,11 @@ const Navigation = () => {
         <div className="row">
           <div className="col-sm-3 navPart1">
             <Button className="allCatTab">
-              <span className="icon1">
+              <span className="icon1 mr-2">
                 <IoIosMenu />
               </span>
               <span class="text">ALL CATEGORIES</span>
-              <span className="icon2">
+              <span className="icon2 ml-2">
                 <FaAngleDown />
               </span>
             </Button>
