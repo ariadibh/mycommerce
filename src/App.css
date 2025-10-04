@@ -4,6 +4,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
 body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -142,7 +143,7 @@ header .part3 .circle svg {
 }
 nav .allCatTab {
   background: #2bbef9;
-  padding: 8px 20px !important;
+  padding: 10px 15px !important;
   border-radius: 30px;
 }
 nav .allCatTab * {
@@ -159,5 +160,26 @@ nav .allCatTab .icon1 svg {
 }
 
 nav .allCatTab .icon2 svg {
-  font-size: 20px !important;
+  font-size: 15px !important;
+}
+nav .navPart2 ul {
+  margin-bottom: opx;
+}
+nav .navPart2 ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in-out;
+}
+nav .navPart2 ul li a svg {
+  font-size: 15px;
+}
+nav .navPart2 ul li a:hover {
+  background: #f0faff;
+  color: #2bbef9;
 }
